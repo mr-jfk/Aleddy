@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/RelativeLayout1" android:background="@drawable/weednature" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image_view_captured_image" android:layout_width="fill_parent" android:layout_height="480.0dip" android:layout_below="@id/retakedoneButton" android:contentDescription="@string/content_desc_image_just_taken" />
+    <ImageView android:id="@id/imageView1" android:layout_width="88.0dip" android:layout_height="142.0dip" android:src="@drawable/tuetchen2" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <Button 
+        android:typeface="serif" 
+        android:textColor="@android:color/white" 
+        android:id="@id/retakedoneButton" 
+        android:background="@null" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:text="@string/title_activity_retakedone" 
+        android:layout_alignParentLeft="true" 
+        android:layout_alignParentTop="true" 
+        android:onClick="onUseCameraClick" />
+    
+    <TextView android:textAppearance="?android:textAppearanceLarge" 
+        android:typeface="serif" 
+        android:textColor="@android:color/white" 
+        android:id="@id/textView1" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginBottom="47.0dip"
+        android:text="Is your Weed in the baggy;)?" 
+        android:layout_alignParentBottom="true" 
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

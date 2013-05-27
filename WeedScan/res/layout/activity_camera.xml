@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.blundell.tut.cameraoverlay.ui.widget.CameraPreview android:id="@id/camera_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="center" 
+        android:layout_width="334.0dip" 
+        android:layout_height="194.0dip" 
+        android:src="@drawable/tuetchen2" 
+        android:contentDescription="@string/content_desc_overlay" />
+    
+    
+    <ImageButton android:layout_gravity="bottom" 
+        android:id="@id/capturebutton" 
+        android:background="@null" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:src="@drawable/scan" />
+</FrameLayout>
